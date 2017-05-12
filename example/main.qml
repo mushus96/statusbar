@@ -21,6 +21,7 @@
 */
 
 import QtQuick 2.7
+import QtQuick.Window 2.2
 import QtQuick.Controls 2.0
 import QtQuick.Controls.Material 2.0
 import StatusBar 0.1
@@ -30,6 +31,7 @@ ApplicationWindow {
     width: 360
     height: 360
     visible: true
+    flags: Qt.Window | Qt.MaximizeUsingFullscreenGeometryHint
 
     header: ToolBar {
         id: toolBar
